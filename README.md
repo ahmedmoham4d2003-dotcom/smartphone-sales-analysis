@@ -79,16 +79,12 @@ Data preprocessing was performed using Python (Pandas & NumPy):
 ---
 
 ## 📂 Project Files
-- 📁 Dataset (Raw & Cleaned)
+-  Dataset (Raw & Cleaned)
 - 🐍 Python Data Cleaning Script
 - 📊 Power BI Dashboard (.pbix)
 - 📽 Presentation (.pptx)
 
 ---
-
-## 📸 Dashboard Preview
-
-
 
 ## 👤 Author
 Ahmed Mohammad  
