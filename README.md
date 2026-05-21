@@ -1,91 +1,152 @@
-# Phone-Research-Analysis
-Data cleaning using Python and interactive dashboard creation using Power BI for sales analysis.
-# 📱 Phone Market Analysis & Sales Dashboard
+# 📱 Smartphone Sales & Market Research Analysis
 
-## 📌 Overview
-This project analyzes mobile phone product data collected from an e-commerce platform (Amazon). The goal is to clean the raw dataset using Python, then build an interactive dashboard in Power BI to extract meaningful business insights and support decision-making.
+## 📌 Project Overview
+An end-to-end data analytics project focused on smartphone market research and sales analysis using Python and Power BI.
 
+The project combines:
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Sales analytics
+- Interactive dashboard reporting
 
-## 📊 Dataset Description
-The dataset contains over **315 phone products** with mixed data types (numerical, categorical, and text).
-
-### Key Features:
-- Product Title
-- Price & Original Price
-- Sales Volume
-- Ratings
-- Discount Status
-- Best Seller / Amazon Choice
-- Prime Availability
-- Climate-Friendly Indicator
-
-
-##  Data Cleaning (Python)
-Data preprocessing was performed using Python (Pandas & NumPy):
-
-### Main Steps:
-- Removed columns with more than 75% missing values
-- Cleaned price columns (removed symbols, converted to float)
-- Handled missing values:
-  - Median for price-related columns
-  - Mean (4.08) for ratings
-- Converted sales volume from text (e.g., 1.2K → 1200)
-- Created new feature:
-  - **Discount Value = Original Price - Price**
-
-
-## 📈 Dashboard (Power BI)
-
-### 🔹 Market Overview
-- Total Products: 315
-- Avg Price: $171
-- Avg Rating: 4.08
-- Discounted Products: 43%
-
-### 🔹 Discount & Sustainability Analysis
-- Discounted products achieve higher sales
-- Climate-friendly products have competitive performance
-
-### 🔹 Sales Performance
-- Strong correlation between ratings and sales
-- Best Seller & Amazon Choice significantly boost sales
-- Top 10 products dominate total sales
+to generate insights about:
+- Product performance
+- Pricing strategies
+- Discounts impact
+- Customer ratings
+- Best seller behavior
+- Prime and Amazon Choice influence
 
 ---
 
-## 🔍 Key Insights
-- Discounts increase sales performance
-- Higher-rated products sell more
-- Best Seller and Amazon Choice labels improve visibility and sales
-- Sales are concentrated in a small number of products
-- Climate-friendly products perform similarly to others
+# 🎯 Business Objectives
+- Analyze smartphone sales performance
+- Evaluate discount effectiveness
+- Understand customer rating impact on sales
+- Identify top-performing products
+- Compare Prime vs non-Prime product pricing
+- Analyze climate-friendly product behavior
 
 ---
 
-## ✅ Recommendations
-- Apply discounts strategically on high-performing products
-- Improve product ratings through customer engagement
-- Optimize listings to achieve Best Seller / Amazon Choice badges
-- Promote sustainable products more effectively
-- Analyze top-selling products to replicate success factors
-
----
-
-## 🛠 Tools & Technologies
-- Python (Pandas, NumPy)
+# 🛠️ Tools & Technologies
+- Python
+- Pandas
+- NumPy
 - Power BI
-- PowerPoint
+- Data Visualization
 
 ---
 
-## 📂 Project Files
--  Dataset (Raw & Cleaned)
-- 🐍 Python Data Cleaning Script
-- 📊 Power BI Dashboard (.pbix)
-- 📽 Presentation (.pptx)
+# 📂 Project Workflow
+
+## 1️⃣ Data Collection
+Imported raw smartphone product and sales dataset.
 
 ---
 
-## 👤 Author
-Ahmed Mohammad  
-Data Analyst
+## 2️⃣ Data Cleaning Using Python
+Performed extensive cleaning and preprocessing including:
+- Handling missing values
+- Removing duplicates
+- Fixing inconsistent formatting
+- Data type corrections
+- Feature preparation
+
+---
+
+## 3️⃣ Exploratory Data Analysis (EDA)
+Performed exploratory analysis to identify:
+- Sales distribution
+- Rating patterns
+- Discount effectiveness
+- Product category trends
+- Prime and Amazon Choice behavior
+
+---
+
+## 4️⃣ Dashboard Development
+Built interactive Power BI dashboards for:
+- Market overview
+- Sales performance
+- Product comparison
+- Discount analysis
+- Customer rating insights
+
+---
+
+# 📊 Key KPIs
+- Number of Products
+- Sales per Product
+- Discount Sales Lift %
+- Average Prices
+- Average Ratings
+- Discounted Products %
+- Top Products by Sales
+
+---
+
+# 📂 Dashboard Pages
+
+## 1️⃣ Market Overview
+Provides insights into:
+- Product pricing
+- Discount effectiveness
+- Climate-friendly products
+- Sales lift analysis
+- Product distribution
+
+---
+
+## 2️⃣ Sales Performance
+Focused on:
+- Sales by rating
+- Best seller analysis
+- Amazon Choice impact
+- Prime product comparison
+- Top-performing products
+
+---
+
+# 💡 Key Insights
+- Discounted products generated higher average sales.
+- Best seller products significantly outperformed other products.
+- Higher-rated products achieved stronger sales performance.
+- Amazon Choice products showed higher sales volume.
+- Prime products demonstrated different pricing behavior.
+
+---
+
+# 🚀 Recommendations
+- Increase focus on highly rated products.
+- Optimize discount strategies for weaker-performing products.
+- Improve visibility of high-performing Prime products.
+- Monitor pricing strategies across product categories.
+- Expand climate-friendly product offerings.
+
+---
+
+# 📸 Dashboard Preview
+
+## Market Overview
+![Market Overview](market-overview.png)
+
+---
+
+## Sales Performance
+![Sales Performance](sales-performance.png)
+
+---
+
+# 📁 Project Files
+- Raw dataset
+- Cleaned dataset
+- Python notebook (.ipynb)
+- Power BI dashboard (.pbix)
+- Dashboard screenshots
+
+---
+
+# 👤 Author
+Ahmed Mohamed  
+Pharmacist & Data Analyst | Power BI | SQL | Python | Healthcare Analytics
