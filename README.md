@@ -1,6 +1,6 @@
-# 📱 Smartphone Sales & Market Research Analysis
+#  Smartphone Sales & Market Research Analysis
 
-## 📌 Project Overview
+##  Project Overview
 An end-to-end data analytics project focused on smartphone market research and sales analysis using Python and Power BI.
 
 The project combines:
@@ -19,7 +19,7 @@ to generate insights about:
 
 ---
 
-# 🎯 Business Objectives
+#  Business Objectives
 - Analyze smartphone sales performance
 - Evaluate discount effectiveness
 - Understand customer rating impact on sales
@@ -29,7 +29,7 @@ to generate insights about:
 
 ---
 
-# 🛠️ Tools & Technologies
+#  Tools Used
 - Python
 - Pandas
 - NumPy
@@ -38,14 +38,14 @@ to generate insights about:
 
 ---
 
-# 📂 Project Workflow
+#  Project Workflow
 
-## 1️⃣ Data Collection
+## Data Collection
 Imported raw smartphone product and sales dataset.
 
 ---
 
-## 2️⃣ Data Cleaning Using Python
+## Data Cleaning Using Python
 Performed extensive cleaning and preprocessing including:
 - Handling missing values
 - Removing duplicates
@@ -55,7 +55,7 @@ Performed extensive cleaning and preprocessing including:
 
 ---
 
-## 3️⃣ Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Performed exploratory analysis to identify:
 - Sales distribution
 - Rating patterns
@@ -65,7 +65,7 @@ Performed exploratory analysis to identify:
 
 ---
 
-## 4️⃣ Dashboard Development
+## Dashboard Development
 Built interactive Power BI dashboards for:
 - Market overview
 - Sales performance
@@ -75,7 +75,7 @@ Built interactive Power BI dashboards for:
 
 ---
 
-# 📊 Key KPIs
+#  Key KPIs
 - Number of Products
 - Sales per Product
 - Discount Sales Lift %
@@ -86,9 +86,9 @@ Built interactive Power BI dashboards for:
 
 ---
 
-# 📂 Dashboard Pages
+# Dashboard Pages
 
-## 1️⃣ Market Overview
+##  Market Overview
 Provides insights into:
 - Product pricing
 - Discount effectiveness
@@ -98,7 +98,7 @@ Provides insights into:
 
 ---
 
-## 2️⃣ Sales Performance
+##  Sales Performance
 Focused on:
 - Sales by rating
 - Best seller analysis
@@ -108,7 +108,7 @@ Focused on:
 
 ---
 
-# 💡 Key Insights
+#  Key Insights
 - Discounted products generated higher average sales.
 - Best seller products significantly outperformed other products.
 - Higher-rated products achieved stronger sales performance.
@@ -117,7 +117,7 @@ Focused on:
 
 ---
 
-# 🚀 Recommendations
+#  Recommendations
 - Increase focus on highly rated products.
 - Optimize discount strategies for weaker-performing products.
 - Improve visibility of high-performing Prime products.
@@ -126,7 +126,7 @@ Focused on:
 
 ---
 
-# 📸 Dashboard Preview
+#  Dashboard Preview
 
 ## Market Overview
 ![Market Overview](market-overview.png)
@@ -138,7 +138,7 @@ Focused on:
 
 ---
 
-# 📁 Project Files
+#  Project Files
 - Raw dataset
 - Cleaned dataset
 - Python notebook (.ipynb)
@@ -147,6 +147,6 @@ Focused on:
 
 ---
 
-# 👤 Author
+#  Author
 Ahmed Mohamed  
 Pharmacist & Data Analyst | Power BI | SQL | Python | Healthcare Analytics
